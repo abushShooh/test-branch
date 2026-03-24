@@ -8,15 +8,19 @@
 </head>
 <body class="min-h-screen bg-slate-950 text-white">
   <main class="mx-auto flex min-h-screen max-w-5xl flex-col items-center justify-center px-6 py-16">
-    <span class="mb-4 rounded-full border border-white/10 bg-white/5 px-4 py-1 text-sm text-slate-300">
-      Tailwind CLI подключён
+    <span class="mb-4 rounded-full border border-cyan-400/30 bg-cyan-400/10 px-4 py-1 text-sm text-cyan-300">
+      Tailwind CSS Active
     </span>
     <h1 class="text-center text-4xl font-bold tracking-tight sm:text-6xl">
-      Папка <span class="text-cyan-400">photos</span> создана
+      Tailwind подключён к <span class="text-cyan-400">HTML</span>
     </h1>
     <p class="mt-6 max-w-2xl text-center text-base leading-7 text-slate-300 sm:text-lg">
-      Можем складывать изображения в папку <strong class="text-white">photos</strong> и использовать этот HTML как стартовую страницу.
+      Эта страница использует utility-классы Tailwind, а стили загружаются из локально собранного файла <strong class="text-white">output.css</strong>.
     </p>
+    <div class="mt-10 rounded-2xl border border-white/10 bg-white/5 px-6 py-5 text-left shadow-2xl shadow-cyan-950/30">
+      <p class="text-sm uppercase tracking-[0.3em] text-slate-400">Проверка</p>
+      <p class="mt-3 text-lg font-semibold text-white">Если ты видишь тёмный фон, cyan-акценты и стилизованный блок, значит Tailwind работает.</p>
+    </div>
   </main>
 </body>
 </html>
